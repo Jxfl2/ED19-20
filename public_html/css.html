@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CSS</title>
+		<link href="hoja.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap&subset=latin-ext"
+			rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+	</head>
+	<body>
+        <div class="arriba">
+            <a href="css.html#encabezado"><img width="100%" height="100%" src="img/flecha.jpg" alt="Arriba"/></a>
+        </div>
+        <div class="menu">
+            <h1 id="encabezado" class="titulo1">CSS</h1>
+            <span class="menu">
+                <a href="Index.html">Inicio</a> <a href="html.html">HTML</a>
+            </span>
+        </div>
+		<h2 class="titulo1">General</h2>
+		<div class="bloqueContenido">
+			<p class="titulo1">Inroducción</p>
+			<p>CSS (Cascading Style Sheets) sirve para definir el estilo de la pagina.
+				Se puede incluir en el tag, con el atributo style, en el mismo archivo,
+				incluyendo el tag &lt;style&gt; en el head de la pagina, o en un archivo
+				a parte, vinculando con &lt;link rel="" href="" &gt;</p>
+			<p>En el css se puede utilizar clases (referenciados por un ".") o id unicos (
+				referenciados por "#") para dar estilos propios u otras funcionalidades
+				(cabeceras).</p>
+			<p>Cada etiqueta de html puede tener atributos
+				propios, pero todas tienen el atributo style="" para poder establecer
+				estilos CSS.</p>
+		</div>
+        
+        <div class="bloqueContenido">
+            <p id="linkcolor" class="titulo1">Hipervinculos</p>
+            <p>Los links &lt;a&gt; tienen "estados" que pueden ser editados con CSS. Como por ejemplo:</p>
+            <ul>
+                <li>a:link -- Editar el link en el estado "base".</li>
+                <li>a:visited -- Edita el link en el estado "visitado".</li>
+                <li>a:active -- Edita el link en el estado "activo" (cuando se esta haciendo click en él).</li>
+                <li>a:hover -- Edita el link en el estado "sobre el" (cuando pasas el raton por encima).</li>
+            </ul>
+            <span><a href="css.html#linkcolor">Esto es un ejemplo</a></span>
+        </div>
+        
+        <div class="bloqueContenido">
+            <p id="listas" class="titulo1">Listas</p>
+            <p>Aqui hay algun atributo util para el CSS de las listas.</p>
+            <ul>
+                <li>list-style-type: Define el estilo del "marcador" de la lista. Valores (disc | circle | square | none).</li>
+                <li>type : Define la enumeracion de las listas ordenadas. Valores ("1" | "A" | "a" | "I" | "i").</li>
+                <li>overflow: Para tratar los elementos que salen de la pagina. Valores hidden.</li>
+                <li>float: Para que los elementos pasen a una "capa" superior en la posicion idicada. Si el elemento siguiente se hace float tambien este se "pegua" al elemento anterior. Valores (left | right | none | inherit).</li>
+                <li>display: Sirve para mostrar los elementos en "linea" en vez de en forma de "bloque"</li>
+            </ul>
+        </div>
+        
+        <div class="bloqueContenido">
+            <p class="titulo1">Float &amp; clear</p>
+            <p>La propiedad float="" sirve para que los elementos pasen a una "capa" superior en la posicion idicada (no ocupando espacio pero si). Si el elemento siguiente se hace float tambien este se "pegua" al elemento anterior.</p>
+            <p>Valores:</p>
+            <ul>
+                <li>left: Sirve para que el elemento se alinee arriba a la izquierda del elemento contenedor.</li>
+                <li>right: Sirve para que el elemento se alinee arriba a la derecha del elemento contenedor.</li>
+                <li>none: Sirve para que el elemento no "flote".</li>
+                <li>inherit: Sirve para que el elemento adquiera el valor de su "padre".</li>
+            </ul>
+            <p>La propiedad clear="" sirve para especificar los elementos flotantes que no se permiten a los lados.</p>
+            <p>Valores:</p>
+            <ul>
+                <li>none: Permite elementos flotantes a ambos lados (por defecto).</li>
+                <li>left: No permiten elementos flotantes a su izquierda.</li>
+                <li>right: No permiten elementos flotantes a su derecha.</li>
+                <li>both: No se permiten elementos flotantes a ambos lados.</li>
+                <li>inherit: Adquiere el valor de su "padre".</li>
+            </ul>
+        </div>
+        
+        <div class="bloqueContenido">
+            <p class="titulo1">Display</p>
+            <p>La propiedad display sirve para mostrar un elemento de una manera en concreto (o no mostrarlo...).</p>
+            <p>Todos los elementos poseen valores por defecto de esta propiedad, algunos tipo "block" como el &lt;p&gt; y otros tienen el valor "inline" como &lt;img&gt;, incluso algunos no se muestran (none) como la etiqueta &lt;script&gt;.</p>
+            <p>Valores:</p>
+            <ul>
+                <li>block: Muestra el elemento como un tipo "bloque".</li>
+                <li>inline: Muestra el elemnto como un tipo "en linea".</li>
+                <li>inline-block: Muestra el elemento como un tipo "en linea" pero pudiendo establecer altura y anchura.</li>
+                <li>none: No muestra el elemento y tampoco ocupa lugar en la pagina.</li>
+            </ul>
+        </div>
+        
+		<div class="bloqueContenido">
+			<p class="titulo1" id="atributos">Atributos</p>
+			<p class="fondo">El atributo style tiene varios valores
+				como el background-color:... para cambiar el color del fondo de la
+				etiqueta.</p>
+			<p class="tipografia">Incluso cambiar el tipo de fuente
+				del texto con font-family:...; Es recomendable poner varias fuentes para
+				que cualquier navegador tenga mas opciones para cargar.</p>
+			<p class="colorcss">Tambien se puede cambiar el color del texto con
+				color:...;</p>
+			<p class="tamañocss">Se puede cambiar el tamaño con font-size:...;</p>
+			<p class="centrocss">Y alinear el texto con text-align:left | center
+				| right;</p>
+			<p class="bordecss">En HTML hay 140 nombres para colores ya
+				establecidos como <b class="dodgerblue">DodgerBlue</b>. Si se
+				desea poner cualquier otro color siempre se puede usara el sistema 'hex'
+				, 'rgb' o 'hsl'.</p>
+			<p class="paddingcss">El padding sirve para definir el espacio entre el
+				elemento y su borde (relleno)</p>
+			<p class="margencss">El margin sirve para definir el espacio fuera del borde
+				del elemento.</p>
+            <p>Con los atributos width:"" y height:"" se puede controlar el tamaño de un elemento</p>
+        </div>
+        
+	</body>
+</html>

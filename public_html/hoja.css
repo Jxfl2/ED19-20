@@ -1,0 +1,223 @@
+/*General*/
+
+@media screen and (min-width:1000px) {
+    body {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (min-width:1920px) {
+    body {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Rubik', verdana;
+	font-size: 15px;
+}
+div hr {
+    margin-left: 1%;
+    margin-right: 25%;
+}
+ul {
+    font-size: 15px;
+    font-family: 'Rubik', verdana;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color:crimson;
+    padding: 2px;
+    
+}
+a:hover {
+    color: chartreuse;
+    padding: 2px;
+}
+a:active {
+    color: aqua;
+    border: 1px dashed aqua;
+    padding: 2px;
+}
+
+/*Estilo cabeceras*/
+
+div.arriba {
+    position: fixed;
+    height: 30px;
+    width: 30px;
+    /*top: 95%;
+    left: 96%;*/
+    right: 3%;
+    bottom: 2%;
+}
+div.menu {
+    background-color: #ccecd3;
+	padding: 10px;
+    text-align: center;
+}
+span.menu a {
+    margin: 10px;
+    padding: 5px;
+    background-color: antiquewhite;
+    text-decoration: none;
+    color: black;
+}
+span.menu a:hover {
+    color:antiquewhite;
+    background-color: black;
+}
+h1.titulo1 {
+	text-align: center;
+	color: #bcffc7;
+	background-color: #005c00;
+	padding: 20px;
+	font-family: 'Cinzel', serif;
+	font-size: 40px;
+	font-weight: bold;
+    margin-top: 5px;
+}
+h2.titulo1{
+	padding: 2px;
+	padding-left: 20px;
+	color: #015307;
+	background-color: #ccecd3;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+}
+p.titulo1 {
+	font-weight: bold;
+	font-size: 18px;
+	padding: 6px;
+	padding-left: 20px;
+	margin-left: 3%;
+	margin-right: 65%;
+	color: #118201;
+	background-color: #fbff86;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	border-style: hidden;
+	border-radius: 7px;
+	border-color: #fbff86;
+}
+
+/*Estilos para el texto de la pagina*/
+
+pre.especial {
+	margin-left: 50px;
+}
+div.bloqueContenido{
+	background-color: #f2f2f2;
+	padding: 2px;
+	margin-top: 15px;
+}
+span.cuerpoPrincipal {
+    margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Rubik', verdana;
+	font-size: 15px;
+}
+
+/*CSS Index.html*/
+
+div.index {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 150px;
+}
+.index a,.index a:visited{
+	color: lightcyan;
+}
+
+.index a:hover {
+	color:greenyellow;
+	background-color: black;
+	padding: 5px;
+}
+
+/*ID*/
+#linkcolor{
+    
+}
+#atributos{
+    
+}
+#encabezado{
+    
+}
+#listas{
+    
+}
+
+/*Ejemplos de estilos CSS en la pagina CSS*/
+p.colorhtml {
+	color: red;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Rubik', verdana;
+	font-size: 15px;
+}
+p.fondo {
+	background-color: #FABFB3;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Rubik', verdana;
+	font-size: 15px;
+}
+p.tipografia {
+	font-family: verdana, courier;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 15px;
+}
+p.colorcss {
+	color: blue;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Rubik', verdana;
+	font-size: 15px;
+}
+p.tamañocss {
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Rubik', verdana;
+}
+p.centrocss {
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Rubik', verdana;
+	font-size: 15px;
+}
+p.bordecss {
+	border: 2px solid #6a5acd;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Rubik', verdana;
+	font-size: 15px;
+}
+b.dodgerblue {
+	color: DodgerBlue;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Rubik', verdana;
+	font-size: 15px;
+}
+p.paddingcss {
+	border: 3px solid #60b7c2;
+	padding: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: 'Rubik', verdana;
+	font-size: 15px;
+}
+p.margencss {
+	padding: 5px;
+	border: 3px solid #60b7c2;
+	margin: 20px;
+	font-family: 'Rubik', verdana;
+	font-size: 15px;
+}
