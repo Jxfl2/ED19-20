@@ -6,12 +6,19 @@
 package Paquete;
 
 /**
- *
+ * Interfaz preparada para escribir una linea en un archivo.
  * @author aaron
  */
 public interface doc {
 
-    // Devuelve el contenido del archivo tras insertar la linea line en la linea numero x, el contenido de la linea x, pasa a ser la linea x+1 y asi sucesivamente.
+    /**
+     * Escribe la linea pasada por parametro, en un documento tambien establecido
+     * por parametro en la linea "x".
+     * @param x Numero de linea en la que se añade la linea.
+     * @param line Linea que se copia en la posicion "x".
+     * @param file La ruta del archivo donde se copia la linea.
+     * @return Devuelve un String que es el contenido del archivo con la linea añadida.
+     */
     public abstract String escribirLinea(int x, String line, String file);
 
 }
