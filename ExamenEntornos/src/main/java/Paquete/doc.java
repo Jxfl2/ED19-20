@@ -20,5 +20,11 @@ public interface doc {
      * @return Devuelve un String que es el contenido del archivo con la linea añadida.
      */
     public abstract String escribirLinea(int x, String line, String file);
-
+    /**
+     * Calcula el area de una ciudad. Se le tiene que pasar los Km de los lados
+     * de la ciudad.
+     * @param ciudad La ciudad de la que se quiere calcular el area.
+     * @return Devuelve el calculo del area de la ciudad introducida.
+     */
+    public abstract double areaCiudad(String ciudad);
 }
