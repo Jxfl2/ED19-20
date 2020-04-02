@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package examendual;
+package Paquete;
 
 /**
  *
- * @author pablo
+ * @author aaron
  */
-public class prueba {
+public class Prueba {
     
     public static int aProbar(int q)
     {
